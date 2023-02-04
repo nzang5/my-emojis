@@ -1,0 +1,57 @@
+body{
+    background: lightblue;
+    text-align: center;
+}
+
+.container{
+    border: 2px solid whitesmoke;
+    margin: 100px auto;
+    padding: 20px 40px;
+    width: 650px;
+}
+
+#emojis-el{
+    font-size: 4rem;
+    letter-spacing: 8px;
+    padding: 10px;
+}
+
+input{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.add-btn,
+.remove-btn{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.add-btn button{
+    background: rgb(111, 206, 111);
+}
+
+.add-btn button:hover{
+    background: rgb(86, 173, 86);
+}
+
+.remove-btn button{
+    background: lightcoral;
+}
+
+.remove-btn button:hover{
+    background: rgb(207, 98, 98);
+}
+
+button{
+    border: none;
+    padding: 8px 13px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
